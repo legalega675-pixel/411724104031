@@ -1,0 +1,95 @@
+ body{
+                color:black;
+                background-color: bisque;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+            }
+/* p{
+    font-style: italic;
+    font-size:xx-large;
+    font-weight:900;
+} */
+img{
+    height: 500px;
+    width:500px;
+    /* border-radius: 500px; */
+}
+video{
+    height: 500px;
+}
+ol{
+    list-style-type:lower-roman;
+}
+ul{
+    list-style: disc;
+}
+table, th, td{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+h1{
+    padding: 50px;
+    border: 20px solid blueviolet;
+    margin: 50px;
+}
+button:hover{
+    background-color: green;
+    border-radius: 10px;
+}
+button{
+    padding: 10px;
+    margin: 20px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    gap:100px;
+}
+#p1{
+    font-style: normal;
+    font-weight: bolder;
+    font-size: x-large;
+}
+#p2{
+    font-style: italic;
+}
+.pclass{
+    font-size:x-large;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+/* #one{
+    grid-row:1/2;
+}
+#two{
+    grid-row:1/2;
+}
+#three{
+    grid-row: 1/2;
+}
+#four{
+    grid-row:2/3;
+}
+#five{
+     grid-row:2/3;
+}
+#six{
+     grid-row:2/3;
+} */
+.festivals{
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+/* #festivals1{
+    grid-row: 1/2;
+}
+#festivals2{
+    grid-row:1/2;
+}
+#festivals3{
+    grid-row:2/3;
+}
+#festivals4{
+    grid-row:2/3;
+} */
