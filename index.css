@@ -9,12 +9,18 @@
     font-weight:900;
 } */
 img{
-    height: 500px;
-    width:500px;
+    height:auto;
+    width:100%;
     /* border-radius: 500px; */
 }
+@media(max-width:1024px){
+    img{
+        height:auto;
+        width:100%;
+    }
+}
 video{
-    height: 500px;
+    width: 100%;
 }
 ol{
     list-style-type:lower-roman;
@@ -41,8 +47,15 @@ button{
 }
 nav{
     display: flex;
-    flex-direction: row;
-    gap:100px;
+    flex-direction: column;
+    /* gap:100px; */
+}
+@media (min-width:1024px){
+    nav{
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+    }
 }
 #p1{
     font-style: normal;
@@ -57,9 +70,16 @@ nav{
 }
 .grid{
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    /* grid-template-columns: 33% 33% 33%; */
 }
-/* #one{
+@media(min-width:1024px){
+    .grid{
+        display:grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+}
+
+#one{
     grid-row:1/2;
 }
 #two{
@@ -76,7 +96,7 @@ nav{
 }
 #six{
      grid-row:2/3;
-} */
+}
 .festivals{
     display:grid;
     grid-template-columns: 50% 50%;
