@@ -75,19 +75,19 @@ public class Jun08{
     // }
     //  System.out.print(num[i]);
 
-    // int[] num = new int[5];
-    // Scanner sc=new Scanner(System.in);
-    // int max=num[0];
-    // int smax=num[0];
-    // for(int i=1;i<num.length;i++){
-    //     num[i]=sc.nextInt();
-    //     if(num[i]>max){
-    //         max=num[i];
-    //     }else if(num[i]>smax&&num[i]!=max){
-    //         smax=num[i];
-    //     }
-    // }
-    // System.out.print(smax);
+    int[] num = new int[5];
+    Scanner sc=new Scanner(System.in);
+    int max=num[0];
+    int smax=num[0];
+    for(int i=1;i<num.length;i++){
+        num[i]=sc.nextInt();
+        if(num[i]>max){
+            max=num[i];
+        }else if(num[i]>smax&&num[i]!=max){
+            smax=num[i];
+        }
+    }
+    System.out.print(smax);
 
     // int[] num=new int[5];
     // Scanner sc=new Scanner(System.in);
